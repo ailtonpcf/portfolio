@@ -1,13 +1,13 @@
 configfile: "/home/proj/02-compost-microbes/src/112-quantify-mock-spikein-sensitive/smk.config"
 workdir: config['workdir']
-include: "/home/proj/00-default/smk-functions/resources.py"
+include: "/home/proj/00_default/smk/functions/resources.py"
 
 module aligners:
-    snakefile: "/home/proj/00-default/smk-modules/aligners.smk"
+    snakefile: "/home/proj/00_default/smk/modules/aligners.smk"
     config: config
 
 module samtools:
-    snakefile: "/home/proj/00-default/smk-modules/samtools.smk"
+    snakefile: "/home/proj/00_default/smk/modules/samtools.smk"
     config: config
 
 use rule * from samtools
