@@ -9,4 +9,6 @@ This repository provides an overview of personal bioinformatics practices. /home
     - Analysis with high I/O is not allowed in this partition.
 - /vast
     - is where cache and heavy analysis are kept.
-    - /vast/tmp is a temporary directory that is often supplied in jobs when the tools allow it.
+    - /vast/tmp is a temporary directory that is often supplied in jobs when the tools allow it
+
+Besides, /home/proj/00_defaults provides resources that are reused in Snakemake workflows for similarity searches (like BLAST), NGS quality control (including trimming), and so on. Check it out!
