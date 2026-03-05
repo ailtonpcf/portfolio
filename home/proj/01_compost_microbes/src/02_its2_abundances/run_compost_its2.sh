@@ -20,8 +20,8 @@ echo ""
 # Activate local conda environment
 source /home/${USER}/.bashrc
 
-SCRATCH="/scratch/qi47rin"
-PROJ="/home/qi47rin"
+SCRATCH="/scratch"
+PROJ="/home"
 
 mamba activate snakemake
 

@@ -1,14 +1,14 @@
 import pandas as pd
 import os
-configfile: "/home/qi47rin/proj/02-compost-microbes/src/26-compost76-its2-abundances/smk.config"
+configfile: "/home/proj/02-compost-microbes/src/26-compost76-its2-abundances/smk.config"
 workdir: config['workdir']
 
 module qc_its2:
-    snakefile: "/home/qi47rin/proj/02-compost-microbes/src/00-pipelines/quality_control_se.smk"
+    snakefile: "/home/proj/02-compost-microbes/src/00-pipelines/quality_control_se.smk"
     config: config
 
 module profile_its2:
-    snakefile: "/home/qi47rin/proj/02-compost-microbes/src/00-pipelines/01-closed-otu-picking.smk"
+    snakefile: "/home/proj/02-compost-microbes/src/00-pipelines/01-closed-otu-picking.smk"
     config: config
 
 use rule * from profile_its2
