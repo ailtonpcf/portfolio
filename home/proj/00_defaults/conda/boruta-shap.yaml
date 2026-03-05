@@ -1,0 +1,16 @@
+name: boruta_env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy>=1.21
+  - pandas>=1.3
+  - scikit-learn>=1.0
+  - shap>=0.41
+  - matplotlib
+  - joblib
+  - pip
+  - pip:
+      - boruta

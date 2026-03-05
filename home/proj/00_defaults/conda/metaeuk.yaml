@@ -1,0 +1,9 @@
+name: metaeuk
+
+channels:
+  - conda-forge
+  - bioconda
+
+dependencies:
+  - metaeuk
+  - mmseqs2

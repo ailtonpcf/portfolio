@@ -1,0 +1,10 @@
+name: vamb
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - taxconverter==1.1.0

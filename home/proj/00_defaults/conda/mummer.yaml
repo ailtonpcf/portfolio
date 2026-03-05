@@ -1,0 +1,7 @@
+name: mummer
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - bioconda::mummer4=4.0.1
+  - conda-forge::gnuplot=5.4.10

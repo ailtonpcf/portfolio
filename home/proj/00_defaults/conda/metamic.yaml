@@ -1,0 +1,17 @@
+name: metamic
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.8
+  - pandas
+  - numpy
+  - pysam
+  - biopython
+  - bwa=0.7.17
+  - samtools=1.9
+  - jellyfish
+  - scikit-learn
+  - scipy
+  - pip

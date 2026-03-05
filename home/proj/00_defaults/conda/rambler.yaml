@@ -1,0 +1,20 @@
+name: rambler
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.8 
+  - numpy 
+  - pandas 
+  - matplotlib 
+  - seaborn 
+  - xlsxwriter 
+  - biopython
+  - jellyfish
+  - minimap2
+  - bwa
+  - samtools
+  - pysam
+  - hifiasm
+  - seqkit

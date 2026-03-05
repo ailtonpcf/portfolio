@@ -1,0 +1,6 @@
+name: cat_pack
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - bioconda::cat=6.0.1

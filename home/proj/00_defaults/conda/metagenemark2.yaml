@@ -1,0 +1,19 @@
+name: metagenemark2
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  # Compiler toolchain
+  - gcc                # Linux GCC
+  - gxx                # G++ compiler
+  - make               # make build tool
+  # Perl for run_mgm.pl
+  - perl
+  # Boost headers + libraries
+  - boost             # meta package (includes boost-cpp)
+  - boost-cpp         # provides include/boost/iostreams/... etc.
+  # Useful build tools
+  - cmake
+  - pkg-config

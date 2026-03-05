@@ -1,0 +1,9 @@
+name: eukfinder
+
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  - eukfinder=1.2.4

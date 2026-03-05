@@ -1,0 +1,8 @@
+name: eukrep
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - bioconda::eukrep
+  - bioconda::scikit-learn==0.19.2
+  - conda-forge::libgfortran

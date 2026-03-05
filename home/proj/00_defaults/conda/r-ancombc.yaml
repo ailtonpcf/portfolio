@@ -1,0 +1,27 @@
+name: r-tidyverse
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+ channel_priority: strict
+dependencies:
+  - conda-forge::gsl=2.7
+  - bioconductor-ancombc=2.2
+  - bioconductor-phyloseq
+  - r-here
+  - r-targets=1.7.1
+  - r-tarchetypes
+  - r-tidyverse
+  - r-default
+  - r-spieceasi
+  - r-ggraph
+  - r-cowplot
+  - r-ggrepel
+  - r-igraph
+  - r-tidygraph
+  - r-clustermq
+  - r-qs
+  - r-ggpubr
+  - r-patchwork
+  - r-compositions
+

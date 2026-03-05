@@ -1,0 +1,11 @@
+name: drep
+channels:
+  - defaults
+  - conda-forge
+  - bioconda
+  - anaconda
+dependencies:
+  - bioconda::drep=3.5.0
+  - checkm-genome=1.2.3
+  - bioconda::mash=2.1
+  - bioconda::mummer=3.23

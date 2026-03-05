@@ -1,0 +1,8 @@
+name: spearman_py
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+  - scipy
+  - statsmodels

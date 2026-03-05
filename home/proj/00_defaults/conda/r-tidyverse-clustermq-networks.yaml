@@ -1,0 +1,37 @@
+name: r-tidyverse
+channels:
+ - bioconda
+ - conda-forge
+ - defaults
+dependencies:
+  - gsl
+  - r-base
+  - r-tidyverse
+  - r-spieceasi
+  - r-igraph
+  - r-compositions
+  - r-zcompositions
+  - r-matrix
+  - r-targets=1.8
+  - r-tarchetypes
+  - r-here
+  - r-jsonlite
+  - r-ggsignif
+  - r-patchwork
+  - r-qs
+  - r-ggpubr
+  - r-default
+  - r-ggraph
+  - r-cowplot
+  - r-ggrepel
+  - r-tidygraph
+  - r-future
+  - r-batchtools
+  - r-future.batchtools
+  - r-future.callr
+  - r-devtools
+  - r-remotes
+  - r-clustermq
+  - r-rstatix
+  - bioconductor-ancombc
+  - bioconductor-phyloseq

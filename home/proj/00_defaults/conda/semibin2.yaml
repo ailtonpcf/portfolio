@@ -1,0 +1,12 @@
+name: vamb
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - semibin
+  - bedtools
+  - hmmer
+  - samtools
+  - mmseqs2
+  - prodigal
