@@ -1,14 +1,21 @@
 # Personal bioinformatics practices
 
-This repository provides an overview of personal bioinformatics practices. /home and /vast represent different partitions in an HPC cluster.
+This repository provides an overview of personal bioinformatics practices.
 
-- /home
-    - /home/proj is the main folder that contains different projects.
-        - Each subfolder contains different data types, such as spreadsheets, PDFs and code.
-    - Scripts and finished results should be stored here.
-    - Analysis with high I/O is not allowed in this partition.
-- /vast
-    - is where cache and heavy analysis are kept.
-    - /vast/tmp is a temporary directory that is often supplied in jobs when the tools allow it
+- /home/${USER}
+    - /home/${USER}/proj is the main folder that contains different projects and collaborations.
+        - Within proj, files are allocated in:
+            - doc: For reports, outlines and manuscripts.
+            - raw: For metadata, like NCBI genome accessions used along that project.
+            - log: For Software logs
+            - res: To storage final results, like figures, spreadsheets ...
+            - src: For code
+    - /home/${USER}/proj/00_defaults
+        - Store scripts, functions, modules ... information previously generated and can be reused for other jobs.
+        - Here we have conda yaml recipes, snakemake modules, R custom functions ... 
+    - Analysis with high I/O are not performed here, unless otherwise requested
 
-Besides, /home/proj/00_defaults provides resources that are reused in Snakemake workflows for similarity searches (like BLAST), NGS quality control (including trimming), and so on. Check it out!
+- /other_partition
+    - Is where cache and heavy analysis are performed
+    - /other_partition/tmp is a temporary directory that is often supplied in jobs to avoid filling /tmp
+
