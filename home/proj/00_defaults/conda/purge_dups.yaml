@@ -1,7 +1,0 @@
-name: purge_dups
-channels:
-  - conda-forge
-  - bioconda
-  - defaults
-dependencies:
-  - purge_dups=1.2.6

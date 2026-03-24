@@ -1,7 +1,0 @@
-name: purge_haplotigs
-channels:
-  - conda-forge
-  - bioconda
-  - defaults
-dependencies:
-  - purge_haplotigs=1.1.3

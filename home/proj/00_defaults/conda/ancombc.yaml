@@ -1,7 +1,0 @@
-name: r-tidyverse
-channels:
-  - conda-forge
-  - bioconda
-dependencies:
-  - conda-forge::gsl
-  - bioconductor-ancombc
