@@ -1,6 +1,0 @@
-name: motus
-channels:
-  - conda-forge
-  - bioconda
-dependencies:
-  - motus=3.1.0

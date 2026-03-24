@@ -1,8 +1,0 @@
-name: fastspar
-channels:
-  - bioconda
-  - conda-forge
-dependencies:
-  - bioconda::fastspar=1.0
-  - conda-forge::parallel
-  - intel::mkl
