@@ -15,7 +15,7 @@ default-resources:
   - mem_mb=10000
   - disk_mb=0
   - time='3-00:00:00'
-  - tmpdir='/vast/qi47rin/tmp'
+  - tmpdir='/scratch/tmp'
 restart-times: 0
 max-status-checks-per-second: 1
 latency-wait: 120
